@@ -10,7 +10,7 @@ public abstract class Interactable : MonoBehaviour
 
     private Outline _outline;
 
-    void Start()
+    protected virtual void Start()
     {
         _outline = GetComponent<Outline>();
         _outline.enabled = false;

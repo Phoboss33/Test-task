@@ -3,17 +3,19 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class DoorInteract : Interactable {
-    private bool doorIsOpen = false;
+    private Animator _animator;
 
-    private void Start() {
-        doorIsOpen = false;
+    protected override void Start() {
+        base.Start();
+
+        _animator = GetComponent<Animator>();
     }
 
     public override void Interact() {
-        OpenCloseDoor();
+        OpenDoor();
     }
     
-    private void OpenCloseDoor() {
-        doorIsOpen = !doorIsOpen;
+    private void OpenDoor() {
+        _animator.Play("OpenDoorAnim");
     }
 }

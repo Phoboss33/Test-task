@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f506e523139f444aa45e97b1b81d170, type: 3}
+  m_Name: Cap
+  m_EditorClassIdentifier: 
+  prefabToSpawn: {fileID: 2466313236277221261, guid: 5f7126b815946ce4db5c752a4f51bb20,
+    type: 3}
+  prefabInHand: {fileID: 2466313236277221261, guid: 4f18efc11892eaa4e990f8021856ba67,
+    type: 3}
